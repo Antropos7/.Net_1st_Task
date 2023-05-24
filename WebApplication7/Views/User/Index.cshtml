@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>User List</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Age</th>
+        <th>Country</th>
+        <th>PhoneNumber</th>
+    </tr>
+    <tr>
+        <td>@ViewBag.Name</td>
+        <td>@ViewBag.Surname</td>
+        <td>@ViewBag.Age</td>
+        <td>@ViewBag.Country</td>
+        <td>@ViewBag.PhoneNumber</td>
+    </tr>
+</table>
